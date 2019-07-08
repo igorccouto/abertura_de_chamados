@@ -3,5 +3,5 @@ chromedriver*
 debug.log
 *.ipynb*
 output*
-/*.csv
+/ordens_de_servico.csv
 /.env

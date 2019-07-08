@@ -7,7 +7,7 @@ Código simples (específico) para ajudar fiscais durante a abertura de ordens d
 Certifique-se que o [GIT](https://git-scm.com/downloads) está instalado em seu PC. Proceda baixando o código fonte:
 
     $ git clone https://github.com/igorccouto/abertura_de_ordens_de_servico
-    $ cd abertura_de_chamados
+    $ cd abertura_de_ordens_de_servico
 
 ### Config
 1. Baixe e instale o [Python 3.6.1](https://www.python.org/downloads/release/python-361).
@@ -27,7 +27,7 @@ Certifique-se que o [GIT](https://git-scm.com/downloads) está instalado em seu 
 
 #### **.env**
 
-No diretório raiz, cria um arquivo chamados com as seguintes variáveis:
+No diretório raiz, crie um arquivo chamado *.env* com as seguintes variáveis:
 
 - USUARIO=*SEU NOME DE USUARIO*
 - SENHA=*SUA SENHA*
@@ -40,15 +40,15 @@ Não use aspas, colchetes ou qualquer caractere para delimitar as variáveis. Ve
 
 #### **ordens\_de\_servico.csv**
 
-No diretório raiz, informe crie um arquivo chamado ordens\_de\_servico.csv contendo as informações dos chamados que você deseja abrir. Veja um modelo deste arquivo em [exemplos](https://github.com/igorccouto/abertura_de_ordens_de_servico/tree/master/exemplos).
+No diretório raiz, crie um arquivo chamado *ordens\_de\_servico.csv* contendo as informações das ordens de serviço que você deseja abrir. Veja um modelo deste arquivo em [exemplos](https://github.com/igorccouto/abertura_de_ordens_de_servico/tree/master/exemplos).
 
 ----
 ## Uso
-No diretório raiz, execute:
+Após as configurações iniciais, no diretório raiz, execute:
 
     $ python .\src\executa.py
 
-O código irá abrir um navegador e utilizará as informações para abrir os chamados sequencialmente. 
+O código irá abrir um navegador e utilizará as informações em *ordens\_de\_servico.csv* para para abrir as ordens de serviço sequencialmente. 
 
 ### Arquivo de saída
 Após cada interação, o código atualiza o arquivo **ordens\_de\_servico\_abertas.csv**. Neste arquivo, estão os registros das ordens de serviço abertas anteriormente.
