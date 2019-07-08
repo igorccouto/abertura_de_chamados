@@ -42,7 +42,6 @@ Não use aspas, colchetes ou qualquer caractere para delimitar as variáveis. Ve
 
 No diretório raiz, crie um arquivo chamado *ordens\_de\_servico.csv* contendo as informações das ordens de serviço que você deseja abrir. Veja um modelo deste arquivo em [exemplos](https://github.com/igorccouto/abertura_de_ordens_de_servico/tree/master/exemplos).
 
-----
 ## Uso
 Após as configurações iniciais, no diretório raiz, execute:
 
