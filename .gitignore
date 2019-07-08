@@ -3,3 +3,5 @@ chromedriver*
 debug.log
 *.ipynb*
 output*
+/*.csv
+/.env
