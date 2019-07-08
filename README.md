@@ -17,6 +17,7 @@ Certifique-se que o [GIT](https://git-scm.com/downloads) está instalado em seu 
 
 3. Baixe o [ChromeDriver](http://chromedriver.chromium.org/downloads).
     1. Escolha de acordo com a versão do Google Chrome instalado no seu PC.
+    2. Renomeie o executável para *chromedriver.exe* e salve-o dentro de uma pasta chamada *chromedriver* no diretório raiz.
 
 4. Para instalar a bibliotecas, dentro da pasta raiz, execute:
 
@@ -24,20 +25,20 @@ Certifique-se que o [GIT](https://git-scm.com/downloads) está instalado em seu 
 
 ### Arquivos de entrada
 
-1. **.env**
+#### **.env**
 
 No diretório raiz, cria um arquivo chamados com as seguintes variáveis:
 
-- USUARIO=*<SEU NOME DE USUARIO>*
-- SENHA=*<SUA SENHA>*
-- EMAIL=*<SEU EMAIL>*
-- CODIGO\_ANS\_FISCAL=*<SEU CODIGO ANS>*
+- USUARIO=*SEU NOME DE USUARIO*
+- SENHA=*SUA SENHA*
+- EMAIL=*SEU EMAIL*
+- CODIGO\_ANS\_FISCAL=*SEU CODIGO ANS*
 
 > **Por motivos de segurança, altere as permissões deste arquivo para que somente a sua conta tenha acesso.**
 
 Não use aspas, colchetes ou qualquer caractere para delimitar as variáveis. Veja um modelo deste arquivo em [exemplos](https://github.com/igorccouto/abertura_de_ordens_de_servico/tree/master/exemplos).
 
-2. **ordens\_de\_servico.csv**
+#### **ordens\_de\_servico.csv**
 
 No diretório raiz, informe crie um arquivo chamado ordens\_de\_servico.csv contendo as informações dos chamados que você deseja abrir. Veja um modelo deste arquivo em [exemplos](https://github.com/igorccouto/abertura_de_ordens_de_servico/tree/master/exemplos).
 
